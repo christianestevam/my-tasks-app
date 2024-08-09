@@ -1,0 +1,37 @@
+<!-- res/layout/fragment_user_create.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade"
+        android:layout_below="@id/editTextName"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextFavoriteFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comida Favorita"
+        android:layout_below="@id/editTextCity"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar"
+        android:layout_below="@id/editTextFavoriteFood"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>
